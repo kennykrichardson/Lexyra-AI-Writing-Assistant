@@ -35,10 +35,10 @@ Whether you're refining a professional email, tightening a resume bullet, improv
 - 🐍 Python
 - 🚀 FastAPI
 - 🦄 Uvicorn
-- 🤗 Hugging Face model integration
+- 🤗 Cloudflare model integration
 
 ### ☁️ Deployment
-- ▲ Vercel for the frontend
+- ▲ Render for the frontend
 - 🚀 Render for the backend
 
 *Deployment providers and model integrations may change as the project evolves.*
@@ -53,7 +53,7 @@ Lexyra/
 │   │   ├── config.py
 │   │   ├── schemas.py
 │   │   ├── prompts.py
-│   │   └── huggingface.py
+│   │   └── cloudflare.py
 │   ├── tests/
 │   │   └── test_api.py
 │   ├── .env.example
@@ -78,13 +78,13 @@ Install the following before running Lexyra locally:
 
 - 🐍 Python 3.10 or newer, subject to your dependency and deployment compatibility.
 - 🟢 Node.js and npm.
-- 🔑 A Hugging Face access token if required by your configured model.
+- 🔑 A Clouflare access token if required by your configured model.
 - 🌐 Git.
 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/kennykrichardson/Lexyra.git
+git clone https://github.com/kennykrichardson/Lexyra-ai-writing-assistant.git
 cd Lexyra
 ```
 
@@ -94,7 +94,7 @@ Replace the repository URL if the GitHub repository uses a different name.
 
 ```bash
 cd backend
-python -m venv .venv
+python -m venv .lexyra
 ```
 
 Activate the environment.
@@ -102,13 +102,13 @@ Activate the environment.
 **Windows PowerShell:**
 
 ```powershell
-.venv\Scripts\Activate.ps1
+.lexyra\Scripts\Activate.ps1
 ```
 
 **macOS/Linux:**
 
 ```bash
-source .venv/bin/activate
+source .lexyra/bin/activate
 ```
 
 Install dependencies:
@@ -120,8 +120,9 @@ pip install -r requirements.txt
 Create your local environment file using `.env.example` as the template. Configure the variables supported by your backend:
 
 ```dotenv
-HF_TOKEN=your_hugging_face_token
-HF_MODEL=your_configured_model_id
+CLOUDFLARE_API_TOKEN=your_cloudflare_token
+CLOUDFLARE_ACCOUNT_ID=your_cloudflare_id
+CLOUDFLARE_MODEL=@cf/meta/llama-3.1-8b-instruct
 FRONTEND_ORIGIN=http://localhost:5173
 MAX_INPUT_CHARS=10000
 ```
@@ -230,7 +231,7 @@ Potential future improvements include:
 
 ## 👨‍💻 Author
 
-**Kenny Richardson**
+**Kenny Richardson Kodipally**
 
 - 🐙 GitHub: [@kennykrichardson](https://github.com/kennykrichardson)
 - 💼 LinkedIn: [Kenny Richardson](https://linkedin.com/in/kennykrichardson)
