@@ -1,4 +1,4 @@
-# 🪶 Lexyra · Thoughtfully Written
+# ✒️ Lexyra · Thoughtfully Written
 
 **Better writing, without losing your voice.**
 
