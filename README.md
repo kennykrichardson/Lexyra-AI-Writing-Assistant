@@ -151,6 +151,24 @@ Vite will display the local development URL, typically `http://localhost:5173`.
 
 🔌 Ensure the frontend API configuration points to your local backend. Use the environment variable or configuration mechanism implemented in the current frontend code.
 
+# Screenshots
+
+## 📡 Lexyra Boot Intro Page
+
+![Boot Intro Page](screenshots/lexyra-boot-intro.png)
+
+---
+
+## 🏠 Lexyra Home Page
+
+![Home Page](screenshots/lexyra-home.png)
+
+---
+
+## 📈 How to Write with Lexyra
+
+![Purpose Page](screenshots/lexyra-purpose.jpeg)
+
 ## 🌍 Deployment
 
 ### ▲ Frontend: Vercel
