@@ -1,0 +1,1 @@
+"""Lexyra backend application package."""
