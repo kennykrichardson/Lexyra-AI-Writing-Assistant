@@ -33,6 +33,10 @@ tests/
 
 .vite/
 
-bundle/
+# Anna generated bundle
+/bundle/
 
+# Backup files
 *.backup.json
+
+/.anna/
