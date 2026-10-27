@@ -32,3 +32,7 @@ desktop.ini
 tests/
 
 .vite/
+
+bundle/
+
+*.backup.json
