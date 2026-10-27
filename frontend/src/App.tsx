@@ -750,16 +750,27 @@ export default function App() {
           </a>
 
 
-          <a
-            className="footer-social-link"
-            href="https://linkedin.com/in/kennykrichardson"
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label="Open Kenny Richardson's LinkedIn profile in a new tab"
-          >
-            My LinkedIn
-            <ArrowRight size={16} />
-          </a>
+          <div className="footer-links">
+            <a
+              className="footer-policy-link"
+              href="https://kennykrichardson.github.io/lexyra-privacy-policy"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Privacy Policy
+            </a>
+
+            <a
+              className="footer-social-link"
+              href="https://linkedin.com/in/kennykrichardson"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Open Kenny Richardson's LinkedIn profile in a new tab"
+            >
+              My LinkedIn
+              <ArrowRight size={16} />
+            </a>
+          </div>
         </footer>
       </main>
     </>

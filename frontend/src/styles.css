@@ -1840,6 +1840,30 @@ body {
   border-radius: 2px;
 }
 
+.footer-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer-policy-link {
+  color: rgba(23, 23, 23, 0.72);
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 180ms ease;
+}
+
+.footer-policy-link:hover {
+  opacity: 0.65;
+}
+
+.footer-policy-link:focus-visible {
+  outline: 2px solid #171717;
+  outline-offset: 4px;
+}
+
 .footer-social-link {
   display: inline-flex;
   align-items: center;
@@ -1951,9 +1975,19 @@ body {
     font-size: 17px;
   }
 
-  .footer-social-link {
+  .footer-links {
     grid-column: 2;
     grid-row: 1;
+    justify-self: end;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .footer-policy-link {
+    font-size: 11px;
+  }
+
+  .footer-social-link {
     justify-self: end;
   }
 }
