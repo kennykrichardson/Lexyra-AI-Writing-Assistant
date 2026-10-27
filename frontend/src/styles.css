@@ -44,7 +44,7 @@ button:disabled{
 
 button:focus-visible,
 textarea:focus-visible{
-  outline: 2px solid #77716a;
+  outline: 2px solid #171717;
   outline-offset: 3px;
 }
 
@@ -382,7 +382,7 @@ button{
   padding: 7px;
 
   background: transparent;
-  color: #4b4844;
+  color: #171717;
 
   font-size: 13px;
 }
