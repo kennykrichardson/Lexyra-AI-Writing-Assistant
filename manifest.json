@@ -1,26 +1,33 @@
 {
-  "name": "Lexyra",
-  "version": "1.0.0",
-  "description": "A high-capacity writing assistant that polishes prose while preserving your original tone. Supports up to 10,000 characters across six modes: Professional, Articulate, Concise, Confident, Recruiter-Friendly, and Academic.",
-  "icon": "🖋️",
-  "theme_color": "#f7f5f1",
-  "categories": ["productivity", "writing", "utilities"],
-  "homepage_url": "https://lexyra.onrender.com",
-  "views": {
-    "main": {
-      "url": "https://lexyra.onrender.com",
-      "title": "Lexyra • Writing Assistant"
-    }
-  },
-  "capabilities": {
-    "max_characters": 10000,
-    "modes": [
-      "Professional",
-      "Articulate",
-      "Concise",
-      "Confident",
-      "Recruiter-Friendly",
-      "Academic"
-    ]
-  }
+    "schema":  2,
+    "ui":  {
+               "bundle":  {
+                              "format":  "static-spa",
+                              "entry":  "index.html",
+                              "external_origins":  [
+                                                       "https://lexyra-api.onrender.com",
+                                                       "https://fonts.googleapis.com",
+                                                       "https://fonts.gstatic.com"
+                                                   ]
+                          },
+               "views":  [
+                             {
+                                 "name":  "main",
+                                 "title":  "Lexyra • Thoughtfully Written",
+                                 "default":  true,
+                                 "entry":  "index.html",
+                                 "default_size":  {
+                                                      "w":  600,
+                                                      "h":  780
+                                                  },
+                                 "min_size":  {
+                                                  "w":  360,
+                                                  "h":  560
+                                              },
+                                 "resizable":  true,
+                                 "movable":  true,
+                                 "single_instance":  true
+                             }
+                         ]
+           }
 }
