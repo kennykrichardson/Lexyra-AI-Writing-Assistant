@@ -246,7 +246,7 @@ button{
 .eyebrow{
   display: inline-block;
 
-  color: #77716a;
+  color: #171717;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.17em;
@@ -826,7 +826,7 @@ button{
   max-width: 650px;
   margin: 20px 0 0;
 
-  color: #625d56;
+  color: #171717;
   font-size: clamp(16px, 1.5vw, 20px);
   line-height: 1.7;
 }
@@ -988,7 +988,7 @@ button{
 
   border-top: 1px solid #e0dcd5;
 
-  color: #77716a;
+  color: #171717;
   font-size: 12px;
 }
 
@@ -1723,7 +1723,7 @@ inexpensive overlay. Avoid backdrop filters over the full viewport. */
 .how-note p,
 .footer,
 .back-button{
-  color: var(--muted);
+  color: #171717;
 }
 
 .textarea-wrap textarea{
