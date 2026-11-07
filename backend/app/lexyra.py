@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from app.config import settings
-from backend.app.cloudflare import enhance_text
+from app.cloudflare import enhance_text
 from app.schemas import EnhanceRequest, EnhanceResponse
 
 app = FastAPI(
